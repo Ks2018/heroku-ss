@@ -12,8 +12,15 @@ gunicorn = "*"
 "psycopg2" = "*"
 whitenoise = "*"
 scrapy = "*"
+python-dateutil = "*"
+ipdb = "*"
 
 
 [requires]
 
 python_version = "2.7"
+
+
+[dev-packages]
+
+ipdb = "*"
