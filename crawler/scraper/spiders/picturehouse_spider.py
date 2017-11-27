@@ -1,9 +1,9 @@
 import scrapy
 
 
-class PictureHouseSpider(scrapy.Spider):
+class CrouchEndPictureHouseSpider(scrapy.Spider):
 
-    name = 'picturehouse'
+    name = 'Crouch End Picturehouse'
 
     def start_requests(self):
         urls = [
