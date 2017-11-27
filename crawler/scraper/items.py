@@ -6,4 +6,6 @@ class SubtitledscreeningsItem(scrapy.Item):
     movie = scrapy.Field()
     time = scrapy.Field()
     age = scrapy.Field()
+    datetime = scrapy.Field()
+    cinema = scrapy.Field()
     pass

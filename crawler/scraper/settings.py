@@ -10,6 +10,6 @@ FEED_FORMAT = "json"
 ROBOTSTXT_OBEY = True
 
 ITEM_PIPELINES = {
-    'crawler.scraper.scrapepipeline.ScrapePipeline': 300,
+    'crawler.scraper.parsepipeline.ParsePipeline': 300,
     'crawler.scraper.databasepipeline.DatabasePipeline': 800,
 }
